@@ -6,8 +6,6 @@ from github_pr import GithubPR
 
 message_list = []
 
-SLACK_BOT_TOKEN = "xoxb-3814038965219-3814219522050-2G7A5jVvMVkOpRKmozpRC5vS"
-SLACK_SIGNIN_SECRET = "c0a000328d3f9863d884294e207095a9"
 
 regex = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))"
 
