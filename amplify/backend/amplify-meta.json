@@ -1,0 +1,111 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-prmate-dev-95644-authRole",
+      "UnauthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-dev-95644-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-dev-95644-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-prmate-dev-95644-deployment",
+      "UnauthRoleName": "amplify-prmate-dev-95644-unauthRole",
+      "StackName": "amplify-prmate-dev-95644",
+      "StackId": "arn:aws:cloudformation:us-west-2:347493130778:stack/amplify-prmate-dev-95644/282ca170-1284-11ed-8a4f-02ff7b6cb203",
+      "AmplifyAppId": "d1ok8mvxl1vylp"
+    }
+  },
+  "storage": {
+    "dynamo97666dc5": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "function": {
+    "prmatebff60bf3": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "storage",
+          "resourceName": "dynamo97666dc5",
+          "attributes": [
+            "Name",
+            "Arn",
+            "StreamArn"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "prmatelayer51a84423",
+          "attributes": [
+            "Arn"
+          ]
+        }
+      ]
+    },
+    "prmatelayer51a84423": {
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer",
+      "build": true
+    },
+    "prmatef7600ea5": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "prmatef2f1cc9c": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "storage",
+          "resourceName": "dynamo97666dc5",
+          "attributes": [
+            "Name",
+            "Arn",
+            "StreamArn"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "prmatelayer51a84423",
+          "attributes": [
+            "Arn"
+          ]
+        }
+      ]
+    }
+  },
+  "api": {
+    "api8f6c6158": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "prmatebff60bf3",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "prmatef7600ea5",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "prmatef2f1cc9c",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
+  }
+}

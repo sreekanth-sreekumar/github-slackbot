@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@octokit/rest": "^19.0.3",
+    "@slack/bolt": "^3.12.1",
+    "aws-serverless-express": "^3.3.5",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.92",
+    "aws-sdk": "^2.1113.0"
+  }
+}

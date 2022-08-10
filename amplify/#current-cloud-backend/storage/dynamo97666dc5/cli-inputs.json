@@ -1,0 +1,14 @@
+{
+  "resourceName": "dynamo97666dc5",
+  "tableName": "dynamo97666dc5",
+  "partitionKey": {
+    "fieldName": "link",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "pull_num",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

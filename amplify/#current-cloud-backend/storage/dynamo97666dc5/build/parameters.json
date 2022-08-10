@@ -1,0 +1,7 @@
+{
+  "tableName": "dynamo97666dc5",
+  "partitionKeyName": "link",
+  "partitionKeyType": "S",
+  "sortKeyName": "pull_num",
+  "sortKeyType": "S"
+}

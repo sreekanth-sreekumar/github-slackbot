@@ -1,0 +1,21 @@
+{
+  "lambdaLayers": [
+    {
+      "type": "ProjectLayer",
+      "resourceName": "prmatelayer51a84423",
+      "env": "dev",
+      "version": "Always choose latest version",
+      "isLatestVersionSelected": true
+    }
+  ],
+  "permissions": {
+    "storage": {
+      "dynamo97666dc5": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}
