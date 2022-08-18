@@ -1,6 +1,6 @@
 const { createAttachments } = require('./attachments');
 const { Octokit } = require('@octokit/rest')
-const octokit = new Octokit({ auth: "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"})
+const octokit = new Octokit({ auth: "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"})
 
 class GithubPR {
 
@@ -10,20 +10,20 @@ class GithubPR {
         this.repo = linkParts[linkParts.length-3];
         this.owner = linkParts[linkParts.length-4];
 
-        const pr_request = 'https://api.github.com/repos/' + this.owner + '/' + this.repo + '/' + 'pulls/' + this.pull_number;
         try {
             let response = await octokit.request('GET /repos/:owner/:repo/pulls/:num', {
                 owner: this.owner,
                 repo: this.repo,
                 num: this.pull_number
             });
+            console.log('res: ', response)
             let result = response['data'];
             this.title = result['title'];
             this.user_login = result['user']['login'];
             this.user_avatar = result['user']['avatar_url'];
             this.labels = [];
-            for (const label in result['labels']) {
-                this.labels.append({'name': label['name'], 'color': label['color']});
+            for (const label of result['labels']) {
+                this.labels.push({'name': label['name'], 'color': label['color']});
             }
             this.updated_at = result["updated_at"];
             this.state = result['state'];

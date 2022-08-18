@@ -8,16 +8,16 @@
         "setting": "open"
       }
     },
-    "/github": {
-      "name": "/github",
-      "lambdaFunction": "prmatef7600ea5",
+    "/slack/commands": {
+      "name": "/slack/commands",
+      "lambdaFunction": "prmatef2f1cc9c",
       "permissions": {
         "setting": "open"
       }
     },
-    "/slack/commands": {
-      "name": "/slack/commands",
-      "lambdaFunction": "prmatef2f1cc9c",
+    "/github": {
+      "name": "/github",
+      "lambdaFunction": "prmatef7600ea5",
       "permissions": {
         "setting": "open"
       }

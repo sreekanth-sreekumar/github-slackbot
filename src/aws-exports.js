@@ -6,14 +6,14 @@ const awsmobile = {
     "aws_dynamodb_all_tables_region": "us-west-2",
     "aws_dynamodb_table_schemas": [
         {
-            "tableName": "dynamo97666dc5-dev",
+            "tableName": "dynamo97666dc5-sampledev",
             "region": "us-west-2"
         }
     ],
     "aws_cloud_logic_custom": [
         {
             "name": "api8f6c6158",
-            "endpoint": "https://1ygk56punb.execute-api.us-west-2.amazonaws.com/dev",
+            "endpoint": "https://jrcdgtga55.execute-api.us-west-2.amazonaws.com/sampledev",
             "region": "us-west-2"
         }
     ]

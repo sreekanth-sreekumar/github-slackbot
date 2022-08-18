@@ -20,7 +20,7 @@
     }
   },
   "Resources": {
-    "LambdaLayerVersion9e59c025": {
+    "LambdaLayerVersion4a552c54": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": {
@@ -51,17 +51,17 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPublic9e59c025": {
+    "LambdaLayerPermissionPublic4a552c54": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
         "LayerVersionArn": {
-          "Ref": "LambdaLayerVersion9e59c025"
+          "Ref": "LambdaLayerVersion4a552c54"
         },
         "Principal": "*"
       }
     },
-    "LambdaLayerVersiond0d3ccd1": {
+    "LambdaLayerVersiona50b4152": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": [
@@ -71,9 +71,9 @@
           "S3Bucket": {
             "Ref": "deploymentBucketName"
           },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersiond0d3ccd1-build.zip"
+          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersiona50b4152-build.zip"
         },
-        "Description": "Updated layer version 2022-08-08T21:12:50.056Z",
+        "Description": "Updated layer version 2022-08-10T18:25:41.515Z",
         "LayerName": {
           "Fn::Sub": [
             "prmatelayer51a84423-${env}",
@@ -88,15 +88,15 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPublicd0d3ccd1": {
+    "LambdaLayerPermissionPublica50b4152": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-dev:8",
+        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:6",
         "Principal": "*"
       }
     },
-    "LambdaLayerVersion5122eb69": {
+    "LambdaLayerVersion91ea3d05": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": [
@@ -106,9 +106,9 @@
           "S3Bucket": {
             "Ref": "deploymentBucketName"
           },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion5122eb69-build.zip"
+          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion91ea3d05-build.zip"
         },
-        "Description": "Updated layer version 2022-08-08T20:41:47.433Z",
+        "Description": "Updated layer version 2022-08-10T18:17:55.050Z",
         "LayerName": {
           "Fn::Sub": [
             "prmatelayer51a84423-${env}",
@@ -123,15 +123,15 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPublic5122eb69": {
+    "LambdaLayerPermissionPublic91ea3d05": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-dev:7",
+        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:5",
         "Principal": "*"
       }
     },
-    "LambdaLayerVersioncbcabdae": {
+    "LambdaLayerVersion7631a77f": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": [
@@ -141,9 +141,9 @@
           "S3Bucket": {
             "Ref": "deploymentBucketName"
           },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersioncbcabdae-build.zip"
+          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion7631a77f-build.zip"
         },
-        "Description": "Updated layer version 2022-08-02T20:56:15.458Z",
+        "Description": "Updated layer version 2022-08-10T18:10:21.732Z",
         "LayerName": {
           "Fn::Sub": [
             "prmatelayer51a84423-${env}",
@@ -158,15 +158,15 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPubliccbcabdae": {
+    "LambdaLayerPermissionPublic7631a77f": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-dev:6",
+        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:4",
         "Principal": "*"
       }
     },
-    "LambdaLayerVersione8f1cdc3": {
+    "LambdaLayerVersion30a697b0": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": [
@@ -176,9 +176,9 @@
           "S3Bucket": {
             "Ref": "deploymentBucketName"
           },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersione8f1cdc3-build.zip"
+          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion30a697b0-build.zip"
         },
-        "Description": "Updated layer version 2022-08-02T20:44:22.241Z",
+        "Description": "Updated layer version 2022-08-10T17:43:08.417Z",
         "LayerName": {
           "Fn::Sub": [
             "prmatelayer51a84423-${env}",
@@ -193,15 +193,15 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPublice8f1cdc3": {
+    "LambdaLayerPermissionPublic30a697b0": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-dev:5",
+        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:3",
         "Principal": "*"
       }
     },
-    "LambdaLayerVersionb69e9838": {
+    "LambdaLayerVersiondcbd934e": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": [
@@ -211,9 +211,9 @@
           "S3Bucket": {
             "Ref": "deploymentBucketName"
           },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersionb69e9838-build.zip"
+          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersiondcbd934e-build.zip"
         },
-        "Description": "Updated layer version 2022-08-02T20:29:55.954Z",
+        "Description": "Updated layer version 2022-08-10T17:13:41.987Z",
         "LayerName": {
           "Fn::Sub": [
             "prmatelayer51a84423-${env}",
@@ -228,15 +228,15 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPublicb69e9838": {
+    "LambdaLayerPermissionPublicdcbd934e": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-dev:4",
+        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:2",
         "Principal": "*"
       }
     },
-    "LambdaLayerVersion8aa50bab": {
+    "LambdaLayerVersione6a02de3": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": [
@@ -246,9 +246,9 @@
           "S3Bucket": {
             "Ref": "deploymentBucketName"
           },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion8aa50bab-build.zip"
+          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersione6a02de3-build.zip"
         },
-        "Description": "Updated layer version 2022-08-02T20:09:35.191Z",
+        "Description": "Updated layer version 2022-08-10T00:12:56.594Z",
         "LayerName": {
           "Fn::Sub": [
             "prmatelayer51a84423-${env}",
@@ -263,81 +263,11 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPublic8aa50bab": {
+    "LambdaLayerPermissionPublice6a02de3": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-dev:3",
-        "Principal": "*"
-      }
-    },
-    "LambdaLayerVersion4c70c2c0": {
-      "Type": "AWS::Lambda::LayerVersion",
-      "Properties": {
-        "CompatibleRuntimes": [
-          "nodejs14.x"
-        ],
-        "Content": {
-          "S3Bucket": {
-            "Ref": "deploymentBucketName"
-          },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion4c70c2c0-build.zip"
-        },
-        "Description": "Updated layer version 2022-08-02T18:20:54.184Z",
-        "LayerName": {
-          "Fn::Sub": [
-            "prmatelayer51a84423-${env}",
-            {
-              "env": {
-                "Ref": "env"
-              }
-            }
-          ]
-        }
-      },
-      "DeletionPolicy": "Delete",
-      "UpdateReplacePolicy": "Retain"
-    },
-    "LambdaLayerPermissionPublic4c70c2c0": {
-      "Type": "AWS::Lambda::LayerVersionPermission",
-      "Properties": {
-        "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-dev:2",
-        "Principal": "*"
-      }
-    },
-    "LambdaLayerVersionfaf3b1e4": {
-      "Type": "AWS::Lambda::LayerVersion",
-      "Properties": {
-        "CompatibleRuntimes": [
-          "nodejs14.x"
-        ],
-        "Content": {
-          "S3Bucket": {
-            "Ref": "deploymentBucketName"
-          },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersionfaf3b1e4-build.zip"
-        },
-        "Description": "Updated layer version 2022-08-02T17:17:19.783Z",
-        "LayerName": {
-          "Fn::Sub": [
-            "prmatelayer51a84423-${env}",
-            {
-              "env": {
-                "Ref": "env"
-              }
-            }
-          ]
-        }
-      },
-      "DeletionPolicy": "Delete",
-      "UpdateReplacePolicy": "Retain"
-    },
-    "LambdaLayerPermissionPublicfaf3b1e4": {
-      "Type": "AWS::Lambda::LayerVersionPermission",
-      "Properties": {
-        "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-dev:1",
+        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:1",
         "Principal": "*"
       }
     }
@@ -345,7 +275,7 @@
   "Outputs": {
     "Arn": {
       "Value": {
-        "Ref": "LambdaLayerVersion9e59c025"
+        "Ref": "LambdaLayerVersion4a552c54"
       }
     }
   }

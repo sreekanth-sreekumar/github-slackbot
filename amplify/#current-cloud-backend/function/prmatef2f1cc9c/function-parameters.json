@@ -3,9 +3,9 @@
     {
       "type": "ProjectLayer",
       "resourceName": "prmatelayer51a84423",
-      "env": "dev",
       "version": "Always choose latest version",
-      "isLatestVersionSelected": true
+      "isLatestVersionSelected": true,
+      "env": "sampledev"
     }
   ],
   "permissions": {

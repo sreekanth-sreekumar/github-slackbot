@@ -155,23 +155,23 @@
     "storagedynamo97666dc5": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
-        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-dev-95644-deployment/amplify-cfn-templates/storage/dynamo97666dc5-cloudformation-template.json",
+        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/storage/dynamo97666dc5-cloudformation-template.json",
         "Parameters": {
           "tableName": "dynamo97666dc5",
           "partitionKeyName": "link",
           "partitionKeyType": "S",
           "sortKeyName": "pull_num",
           "sortKeyType": "S",
-          "env": "dev"
+          "env": "sampledev"
         }
       }
     },
     "functionprmatebff60bf3": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
-        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-dev-95644-deployment/amplify-cfn-templates/function/prmatebff60bf3-cloudformation-template.json",
+        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/function/prmatebff60bf3-cloudformation-template.json",
         "Parameters": {
-          "deploymentBucketName": "amplify-prmate-dev-95644-deployment",
+          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
           "s3Key": "amplify-builds/prmatebff60bf3-583535316f5533577376-build.zip",
           "storagedynamo97666dc5Name": {
             "Fn::GetAtt": [
@@ -197,40 +197,40 @@
               "Outputs.Arn"
             ]
           },
-          "env": "dev"
+          "env": "sampledev"
         }
       }
     },
     "functionprmatelayer51a84423": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
-        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-dev-95644-deployment/amplify-cfn-templates/function/prmatelayer51a84423-awscloudformation-template.json",
+        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/function/prmatelayer51a84423-awscloudformation-template.json",
         "Parameters": {
           "runtimes": "nodejs14.x",
-          "description": "Updated layer version 2022-08-09T05:03:26.994Z",
-          "deploymentBucketName": "amplify-prmate-dev-95644-deployment",
-          "s3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion9e59c025-build.zip",
-          "env": "dev"
+          "description": "Updated layer version 2022-08-10T18:47:12.530Z",
+          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
+          "s3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion4a552c54-build.zip",
+          "env": "sampledev"
         }
       }
     },
     "functionprmatef7600ea5": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
-        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-dev-95644-deployment/amplify-cfn-templates/function/prmatef7600ea5-cloudformation-template.json",
+        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/function/prmatef7600ea5-cloudformation-template.json",
         "Parameters": {
-          "deploymentBucketName": "amplify-prmate-dev-95644-deployment",
+          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
           "s3Key": "amplify-builds/prmatef7600ea5-687270354d584f792b79-build.zip",
-          "env": "dev"
+          "env": "sampledev"
         }
       }
     },
     "functionprmatef2f1cc9c": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
-        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-dev-95644-deployment/amplify-cfn-templates/function/prmatef2f1cc9c-cloudformation-template.json",
+        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/function/prmatef2f1cc9c-cloudformation-template.json",
         "Parameters": {
-          "deploymentBucketName": "amplify-prmate-dev-95644-deployment",
+          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
           "s3Key": "amplify-builds/prmatef2f1cc9c-30697a704a3243773949-build.zip",
           "storagedynamo97666dc5Name": {
             "Fn::GetAtt": [
@@ -256,14 +256,14 @@
               "Outputs.Arn"
             ]
           },
-          "env": "dev"
+          "env": "sampledev"
         }
       }
     },
     "apiapi8f6c6158": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
-        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-dev-95644-deployment/amplify-cfn-templates/api/api8f6c6158-cloudformation-template.json",
+        "TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/api/api8f6c6158-cloudformation-template.json",
         "Parameters": {
           "functionprmatebff60bf3Name": {
             "Fn::GetAtt": [
@@ -274,18 +274,6 @@
           "functionprmatebff60bf3Arn": {
             "Fn::GetAtt": [
               "functionprmatebff60bf3",
-              "Outputs.Arn"
-            ]
-          },
-          "functionprmatef7600ea5Name": {
-            "Fn::GetAtt": [
-              "functionprmatef7600ea5",
-              "Outputs.Name"
-            ]
-          },
-          "functionprmatef7600ea5Arn": {
-            "Fn::GetAtt": [
-              "functionprmatef7600ea5",
               "Outputs.Arn"
             ]
           },
@@ -301,7 +289,19 @@
               "Outputs.Arn"
             ]
           },
-          "env": "dev"
+          "functionprmatef7600ea5Name": {
+            "Fn::GetAtt": [
+              "functionprmatef7600ea5",
+              "Outputs.Name"
+            ]
+          },
+          "functionprmatef7600ea5Arn": {
+            "Fn::GetAtt": [
+              "functionprmatef7600ea5",
+              "Outputs.Arn"
+            ]
+          },
+          "env": "sampledev"
         }
       }
     }

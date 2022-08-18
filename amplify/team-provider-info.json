@@ -1,33 +1,32 @@
 {
-  "dev": {
+  "sampledev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-prmate-dev-95644-authRole",
-      "UnauthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-dev-95644-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-dev-95644-authRole",
+      "AuthRoleName": "amplify-prmate-sampledev-171121-authRole",
+      "UnauthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-sampledev-171121-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-sampledev-171121-authRole",
       "Region": "us-west-2",
-      "DeploymentBucketName": "amplify-prmate-dev-95644-deployment",
-      "UnauthRoleName": "amplify-prmate-dev-95644-unauthRole",
-      "StackName": "amplify-prmate-dev-95644",
-      "StackId": "arn:aws:cloudformation:us-west-2:347493130778:stack/amplify-prmate-dev-95644/282ca170-1284-11ed-8a4f-02ff7b6cb203",
-      "AmplifyAppId": "d1ok8mvxl1vylp"
+      "DeploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
+      "UnauthRoleName": "amplify-prmate-sampledev-171121-unauthRole",
+      "StackName": "amplify-prmate-sampledev-171121",
+      "StackId": "arn:aws:cloudformation:us-west-2:347493130778:stack/amplify-prmate-sampledev-171121/1126a6c0-1841-11ed-8f85-0a787e9793bd"
     },
     "categories": {
       "function": {
         "prmatebff60bf3": {
-          "deploymentBucketName": "amplify-prmate-dev-95644-deployment",
+          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
           "s3Key": "amplify-builds/prmatebff60bf3-583535316f5533577376-build.zip"
         },
-        "prmatelayer51a84423": {
-          "deploymentBucketName": "amplify-prmate-dev-95644-deployment",
-          "s3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion9e59c025-build.zip"
+        "prmatef7600ea5": {
+          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
+          "s3Key": "amplify-builds/prmatef7600ea5-687270354d584f792b79-build.zip"
         },
         "prmatef2f1cc9c": {
-          "deploymentBucketName": "amplify-prmate-dev-95644-deployment",
+          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
           "s3Key": "amplify-builds/prmatef2f1cc9c-30697a704a3243773949-build.zip"
         },
-        "prmatef7600ea5": {
-          "deploymentBucketName": "amplify-prmate-dev-95644-deployment",
-          "s3Key": "amplify-builds/prmatef7600ea5-687270354d584f792b79-build.zip"
+        "prmatelayer51a84423": {
+          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
+          "s3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion4a552c54-build.zip"
         }
       }
     }
