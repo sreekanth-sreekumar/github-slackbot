@@ -20,7 +20,7 @@ const app = new App({
     receiver: awsLambdaReceiver,
 });
 
-app.command('/pr-mate', async ({ack, client, command}) => {
+app.command('/prmate', async ({ack, client, command}) => {
     await ack(command['response_url']);
     const text = command['text'];
     const channel = command['channel_id'];
