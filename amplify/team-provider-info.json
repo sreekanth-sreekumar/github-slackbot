@@ -1,32 +1,32 @@
 {
   "sampledev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-prmate-sampledev-171121-authRole",
-      "UnauthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-sampledev-171121-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-sampledev-171121-authRole",
+      "AuthRoleName": "amplify-prmate-sampledev-104205-authRole",
+      "UnauthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-sampledev-104205-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-sampledev-104205-authRole",
       "Region": "us-west-2",
-      "DeploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
-      "UnauthRoleName": "amplify-prmate-sampledev-171121-unauthRole",
-      "StackName": "amplify-prmate-sampledev-171121",
-      "StackId": "arn:aws:cloudformation:us-west-2:347493130778:stack/amplify-prmate-sampledev-171121/1126a6c0-1841-11ed-8f85-0a787e9793bd"
+      "DeploymentBucketName": "amplify-prmate-sampledev-104205-deployment",
+      "UnauthRoleName": "amplify-prmate-sampledev-104205-unauthRole",
+      "StackName": "amplify-prmate-sampledev-104205",
+      "StackId": "arn:aws:cloudformation:us-west-2:347493130778:stack/amplify-prmate-sampledev-104205/2b7dc9d0-1f1d-11ed-afd5-0a4e9132cc99"
     },
     "categories": {
       "function": {
         "prmatebff60bf3": {
-          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
+          "deploymentBucketName": "amplify-prmate-sampledev-104205-deployment",
           "s3Key": "amplify-builds/prmatebff60bf3-583535316f5533577376-build.zip"
         },
         "prmatef7600ea5": {
-          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
+          "deploymentBucketName": "amplify-prmate-sampledev-104205-deployment",
           "s3Key": "amplify-builds/prmatef7600ea5-687270354d584f792b79-build.zip"
         },
         "prmatef2f1cc9c": {
-          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
+          "deploymentBucketName": "amplify-prmate-sampledev-104205-deployment",
           "s3Key": "amplify-builds/prmatef2f1cc9c-30697a704a3243773949-build.zip"
         },
         "prmatelayer51a84423": {
-          "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
-          "s3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion4a552c54-build.zip"
+          "deploymentBucketName": "amplify-prmate-sampledev-104205-deployment",
+          "s3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion4a815147-build.zip"
         }
       }
     }

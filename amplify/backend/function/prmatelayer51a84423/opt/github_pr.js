@@ -1,6 +1,6 @@
 const { createAttachments } = require('./attachments');
 const { Octokit } = require('@octokit/rest')
-const octokit = new Octokit({ auth: "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"})
+const octokit = new Octokit({ auth: "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"})
 
 class GithubPR {
 
@@ -94,6 +94,9 @@ class GithubPR {
             }
             else {
                 this.color = '#FFA500';
+            }
+            if (this.state === 'closed') {
+                this.color = '#6d00c1'
             }
         }
         catch(err) {

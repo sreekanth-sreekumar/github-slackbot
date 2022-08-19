@@ -1,5 +1,5 @@
 {
-  "Description": "API Gateway Resource for AWS Amplify CLI",
+  "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"Amplify\",\"createdWith\":\"9.2.1\",\"stackType\":\"api-API Gateway\",\"metadata\":{}}",
   "AWSTemplateFormatVersion": "2010-09-09",
   "Parameters": {
     "functionprmatebff60bf3Name": {
@@ -854,7 +854,7 @@
         }
       }
     },
-    "DeploymentAPIGWapi8f6c61581d27921d": {
+    "DeploymentAPIGWapi8f6c6158f1352341": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {

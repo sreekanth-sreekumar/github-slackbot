@@ -20,7 +20,7 @@
     }
   },
   "Resources": {
-    "LambdaLayerVersion4a552c54": {
+    "LambdaLayerVersion4a815147": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": {
@@ -51,17 +51,17 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPublic4a552c54": {
+    "LambdaLayerPermissionPublic4a815147": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
         "LayerVersionArn": {
-          "Ref": "LambdaLayerVersion4a552c54"
+          "Ref": "LambdaLayerVersion4a815147"
         },
         "Principal": "*"
       }
     },
-    "LambdaLayerVersiona50b4152": {
+    "LambdaLayerVersion67aaef60": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": [
@@ -71,9 +71,9 @@
           "S3Bucket": {
             "Ref": "deploymentBucketName"
           },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersiona50b4152-build.zip"
+          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion67aaef60-build.zip"
         },
-        "Description": "Updated layer version 2022-08-10T18:25:41.515Z",
+        "Description": "Updated layer version 2022-08-18T18:22:27.952Z",
         "LayerName": {
           "Fn::Sub": [
             "prmatelayer51a84423-${env}",
@@ -88,15 +88,15 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPublica50b4152": {
+    "LambdaLayerPermissionPublic67aaef60": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:6",
+        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:11",
         "Principal": "*"
       }
     },
-    "LambdaLayerVersion91ea3d05": {
+    "LambdaLayerVersion513f6f3c": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": [
@@ -106,9 +106,9 @@
           "S3Bucket": {
             "Ref": "deploymentBucketName"
           },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion91ea3d05-build.zip"
+          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion513f6f3c-build.zip"
         },
-        "Description": "Updated layer version 2022-08-10T18:17:55.050Z",
+        "Description": "Updated layer version 2022-08-18T18:05:38.900Z",
         "LayerName": {
           "Fn::Sub": [
             "prmatelayer51a84423-${env}",
@@ -123,15 +123,15 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPublic91ea3d05": {
+    "LambdaLayerPermissionPublic513f6f3c": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:5",
+        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:10",
         "Principal": "*"
       }
     },
-    "LambdaLayerVersion7631a77f": {
+    "LambdaLayerVersionf8f5d99d": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": [
@@ -141,9 +141,9 @@
           "S3Bucket": {
             "Ref": "deploymentBucketName"
           },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion7631a77f-build.zip"
+          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersionf8f5d99d-build.zip"
         },
-        "Description": "Updated layer version 2022-08-10T18:10:21.732Z",
+        "Description": "Updated layer version 2022-08-18T17:57:46.061Z",
         "LayerName": {
           "Fn::Sub": [
             "prmatelayer51a84423-${env}",
@@ -158,15 +158,15 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPublic7631a77f": {
+    "LambdaLayerPermissionPublicf8f5d99d": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:4",
+        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:9",
         "Principal": "*"
       }
     },
-    "LambdaLayerVersion30a697b0": {
+    "LambdaLayerVersion9e1ffda7": {
       "Type": "AWS::Lambda::LayerVersion",
       "Properties": {
         "CompatibleRuntimes": [
@@ -176,9 +176,9 @@
           "S3Bucket": {
             "Ref": "deploymentBucketName"
           },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion30a697b0-build.zip"
+          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion9e1ffda7-build.zip"
         },
-        "Description": "Updated layer version 2022-08-10T17:43:08.417Z",
+        "Description": "Updated layer version 2022-08-18T17:44:08.501Z",
         "LayerName": {
           "Fn::Sub": [
             "prmatelayer51a84423-${env}",
@@ -193,81 +193,11 @@
       "DeletionPolicy": "Delete",
       "UpdateReplacePolicy": "Retain"
     },
-    "LambdaLayerPermissionPublic30a697b0": {
+    "LambdaLayerPermissionPublic9e1ffda7": {
       "Type": "AWS::Lambda::LayerVersionPermission",
       "Properties": {
         "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:3",
-        "Principal": "*"
-      }
-    },
-    "LambdaLayerVersiondcbd934e": {
-      "Type": "AWS::Lambda::LayerVersion",
-      "Properties": {
-        "CompatibleRuntimes": [
-          "nodejs14.x"
-        ],
-        "Content": {
-          "S3Bucket": {
-            "Ref": "deploymentBucketName"
-          },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersiondcbd934e-build.zip"
-        },
-        "Description": "Updated layer version 2022-08-10T17:13:41.987Z",
-        "LayerName": {
-          "Fn::Sub": [
-            "prmatelayer51a84423-${env}",
-            {
-              "env": {
-                "Ref": "env"
-              }
-            }
-          ]
-        }
-      },
-      "DeletionPolicy": "Delete",
-      "UpdateReplacePolicy": "Retain"
-    },
-    "LambdaLayerPermissionPublicdcbd934e": {
-      "Type": "AWS::Lambda::LayerVersionPermission",
-      "Properties": {
-        "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:2",
-        "Principal": "*"
-      }
-    },
-    "LambdaLayerVersione6a02de3": {
-      "Type": "AWS::Lambda::LayerVersion",
-      "Properties": {
-        "CompatibleRuntimes": [
-          "nodejs14.x"
-        ],
-        "Content": {
-          "S3Bucket": {
-            "Ref": "deploymentBucketName"
-          },
-          "S3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersione6a02de3-build.zip"
-        },
-        "Description": "Updated layer version 2022-08-10T00:12:56.594Z",
-        "LayerName": {
-          "Fn::Sub": [
-            "prmatelayer51a84423-${env}",
-            {
-              "env": {
-                "Ref": "env"
-              }
-            }
-          ]
-        }
-      },
-      "DeletionPolicy": "Delete",
-      "UpdateReplacePolicy": "Retain"
-    },
-    "LambdaLayerPermissionPublice6a02de3": {
-      "Type": "AWS::Lambda::LayerVersionPermission",
-      "Properties": {
-        "Action": "lambda:GetLayerVersion",
-        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:1",
+        "LayerVersionArn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:8",
         "Principal": "*"
       }
     }
@@ -275,7 +205,7 @@
   "Outputs": {
     "Arn": {
       "Value": {
-        "Ref": "LambdaLayerVersion4a552c54"
+        "Ref": "LambdaLayerVersion4a815147"
       }
     }
   }

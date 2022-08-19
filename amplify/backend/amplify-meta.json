@@ -1,14 +1,14 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-prmate-sampledev-171121-authRole",
-      "UnauthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-sampledev-171121-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-sampledev-171121-authRole",
+      "AuthRoleName": "amplify-prmate-sampledev-104205-authRole",
+      "UnauthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-sampledev-104205-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::347493130778:role/amplify-prmate-sampledev-104205-authRole",
       "Region": "us-west-2",
-      "DeploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
-      "UnauthRoleName": "amplify-prmate-sampledev-171121-unauthRole",
-      "StackName": "amplify-prmate-sampledev-171121",
-      "StackId": "arn:aws:cloudformation:us-west-2:347493130778:stack/amplify-prmate-sampledev-171121/1126a6c0-1841-11ed-8f85-0a787e9793bd"
+      "DeploymentBucketName": "amplify-prmate-sampledev-104205-deployment",
+      "UnauthRoleName": "amplify-prmate-sampledev-104205-unauthRole",
+      "StackName": "amplify-prmate-sampledev-104205",
+      "StackId": "arn:aws:cloudformation:us-west-2:347493130778:stack/amplify-prmate-sampledev-104205/2b7dc9d0-1f1d-11ed-afd5-0a4e9132cc99"
     }
   },
   "storage": {
@@ -16,17 +16,17 @@
       "service": "DynamoDB",
       "providerPlugin": "awscloudformation",
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/storage/dynamo97666dc5-cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-104205-deployment/amplify-cfn-templates/storage/dynamo97666dc5-cloudformation-template.json",
         "logicalId": "storagedynamo97666dc5"
       },
-      "lastPushTimeStamp": "2022-08-10T18:50:17.528Z",
+      "lastPushTimeStamp": "2022-08-18T18:32:55.974Z",
       "output": {
         "PartitionKeyName": "link",
         "SortKeyName": "pull_num",
         "SortKeyType": "S",
         "Region": "us-west-2",
         "Arn": "arn:aws:dynamodb:us-west-2:347493130778:table/dynamo97666dc5-sampledev",
-        "StreamArn": "arn:aws:dynamodb:us-west-2:347493130778:table/dynamo97666dc5-sampledev/stream/2022-08-10T00:13:36.858",
+        "StreamArn": "arn:aws:dynamodb:us-west-2:347493130778:table/dynamo97666dc5-sampledev/stream/2022-08-18T17:44:57.752",
         "PartitionKeyType": "S",
         "Name": "dynamo97666dc5-sampledev"
       },
@@ -56,73 +56,73 @@
           ]
         }
       ],
-      "lastBuildTimeStamp": "2022-08-10T00:13:01.676Z",
+      "lastBuildTimeStamp": "2022-08-18T17:44:17.914Z",
       "lastBuildType": "PROD",
-      "lastPackageTimeStamp": "2022-08-10T00:13:01.984Z",
+      "lastPackageTimeStamp": "2022-08-18T17:44:18.278Z",
       "distZipFilename": "prmatebff60bf3-583535316f5533577376-build.zip",
       "s3Bucket": {
-        "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
+        "deploymentBucketName": "amplify-prmate-sampledev-104205-deployment",
         "s3Key": "amplify-builds/prmatebff60bf3-583535316f5533577376-build.zip"
       },
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/function/prmatebff60bf3-cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-104205-deployment/amplify-cfn-templates/function/prmatebff60bf3-cloudformation-template.json",
         "logicalId": "functionprmatebff60bf3"
       },
-      "lastPushTimeStamp": "2022-08-10T18:50:17.532Z",
+      "lastPushTimeStamp": "2022-08-18T18:32:55.977Z",
       "output": {
         "Region": "us-west-2",
         "Arn": "arn:aws:lambda:us-west-2:347493130778:function:prmatebff60bf3-sampledev",
         "Name": "prmatebff60bf3-sampledev",
         "LambdaExecutionRole": "prmateLambdaRole5940e1bd-sampledev"
       },
-      "lastPushDirHash": "N+0rIohdHWTFai2vKHBSmNPB59w="
+      "lastPushDirHash": "mycIFVeL8pp+nxHobM0TNDLRYMY="
     },
     "prmatelayer51a84423": {
       "providerPlugin": "awscloudformation",
       "service": "LambdaLayer",
       "build": true,
-      "lastBuildTimeStamp": "2022-08-10T18:47:13.770Z",
+      "lastBuildTimeStamp": "2022-08-18T18:29:53.837Z",
       "lastBuildType": "PROD",
-      "lastPackageTimeStamp": "2022-08-10T18:47:53.974Z",
-      "distZipFilename": "prmatelayer51a84423-LambdaLayerVersion4a552c54-build.zip",
-      "latestPushedVersionHash": "2ca805af225d7c6f8be5ec5d6da10701f558446fdca18e7aaf68428eac027483",
+      "lastPackageTimeStamp": "2022-08-18T18:30:33.414Z",
+      "distZipFilename": "prmatelayer51a84423-LambdaLayerVersion4a815147-build.zip",
+      "latestPushedVersionHash": "6ca824b688555412bc51b9ab726efeae6a7fb78fff96200a8e31ada0036f168b",
       "s3Bucket": {
-        "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
-        "s3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion4a552c54-build.zip"
+        "deploymentBucketName": "amplify-prmate-sampledev-104205-deployment",
+        "s3Key": "amplify-builds/prmatelayer51a84423-LambdaLayerVersion4a815147-build.zip"
       },
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/function/prmatelayer51a84423-awscloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-104205-deployment/amplify-cfn-templates/function/prmatelayer51a84423-awscloudformation-template.json",
         "logicalId": "functionprmatelayer51a84423"
       },
-      "lastPushTimeStamp": "2022-08-10T18:50:37.464Z",
+      "lastPushTimeStamp": "2022-08-18T18:33:20.654Z",
       "output": {
-        "Arn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:7"
+        "Arn": "arn:aws:lambda:us-west-2:347493130778:layer:prmatelayer51a84423-sampledev:12"
       }
     },
     "prmatef7600ea5": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
-      "lastBuildTimeStamp": "2022-08-10T00:13:01.677Z",
+      "lastBuildTimeStamp": "2022-08-18T17:44:17.915Z",
       "lastBuildType": "PROD",
-      "lastPackageTimeStamp": "2022-08-10T00:13:01.762Z",
+      "lastPackageTimeStamp": "2022-08-18T17:44:18.052Z",
       "distZipFilename": "prmatef7600ea5-687270354d584f792b79-build.zip",
       "s3Bucket": {
-        "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
+        "deploymentBucketName": "amplify-prmate-sampledev-104205-deployment",
         "s3Key": "amplify-builds/prmatef7600ea5-687270354d584f792b79-build.zip"
       },
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/function/prmatef7600ea5-cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-104205-deployment/amplify-cfn-templates/function/prmatef7600ea5-cloudformation-template.json",
         "logicalId": "functionprmatef7600ea5"
       },
-      "lastPushTimeStamp": "2022-08-10T18:50:17.539Z",
+      "lastPushTimeStamp": "2022-08-18T18:32:55.981Z",
       "output": {
         "Region": "us-west-2",
         "Arn": "arn:aws:lambda:us-west-2:347493130778:function:prmatef7600ea5-sampledev",
         "Name": "prmatef7600ea5-sampledev",
         "LambdaExecutionRole": "prmateLambdaRole4484f345-sampledev"
       },
-      "lastPushDirHash": "+Go4j9c1EAIlo8yL5U0jOd9JfK0="
+      "lastPushDirHash": "KmTtb4h2GbGiKQQokGsofq2Z2dg="
     },
     "prmatef2f1cc9c": {
       "build": true,
@@ -146,26 +146,26 @@
           ]
         }
       ],
-      "lastBuildTimeStamp": "2022-08-10T00:13:01.678Z",
+      "lastBuildTimeStamp": "2022-08-18T17:44:17.915Z",
       "lastBuildType": "PROD",
-      "lastPackageTimeStamp": "2022-08-10T00:13:01.990Z",
+      "lastPackageTimeStamp": "2022-08-18T17:44:18.286Z",
       "distZipFilename": "prmatef2f1cc9c-30697a704a3243773949-build.zip",
       "s3Bucket": {
-        "deploymentBucketName": "amplify-prmate-sampledev-171121-deployment",
+        "deploymentBucketName": "amplify-prmate-sampledev-104205-deployment",
         "s3Key": "amplify-builds/prmatef2f1cc9c-30697a704a3243773949-build.zip"
       },
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/function/prmatef2f1cc9c-cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-104205-deployment/amplify-cfn-templates/function/prmatef2f1cc9c-cloudformation-template.json",
         "logicalId": "functionprmatef2f1cc9c"
       },
-      "lastPushTimeStamp": "2022-08-10T18:50:17.541Z",
+      "lastPushTimeStamp": "2022-08-18T18:32:55.982Z",
       "output": {
         "Region": "us-west-2",
         "Arn": "arn:aws:lambda:us-west-2:347493130778:function:prmatef2f1cc9c-sampledev",
         "Name": "prmatef2f1cc9c-sampledev",
         "LambdaExecutionRole": "prmateLambdaRole6cdd468c-sampledev"
       },
-      "lastPushDirHash": "3vH25dE5giesAHYWj36vK9ymnCA="
+      "lastPushDirHash": "aBKVovbnFQTqVObnow0kzmFONGA="
     }
   },
   "api": {
@@ -199,14 +199,14 @@
         }
       ],
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-171121-deployment/amplify-cfn-templates/api/api8f6c6158-cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-prmate-sampledev-104205-deployment/amplify-cfn-templates/api/api8f6c6158-cloudformation-template.json",
         "logicalId": "apiapi8f6c6158"
       },
-      "lastPushTimeStamp": "2022-08-10T18:50:17.544Z",
+      "lastPushTimeStamp": "2022-08-18T18:32:55.983Z",
       "output": {
         "ApiName": "api8f6c6158",
-        "RootUrl": "https://jrcdgtga55.execute-api.us-west-2.amazonaws.com/sampledev",
-        "ApiId": "jrcdgtga55"
+        "RootUrl": "https://u70anye00i.execute-api.us-west-2.amazonaws.com/sampledev",
+        "ApiId": "u70anye00i"
       },
       "lastPushDirHash": "XvbQMQHnYKyzSaheFEUhb++VSvM="
     }
